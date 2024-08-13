@@ -1,0 +1,113 @@
+#video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Placing the video behind other content */
+}
+
+h1 {
+  text-align: center;
+  font-size: 8em;
+  color: #00ffcc;
+  text-shadow: 0 0 5px #00ffcc;
+  
+}
+
+h2 {
+  border: 6px
+  solid #00ccff;
+ border-radius: 10px;
+ padding: 10px;
+ text-align: center;
+ transition: transform 0.2s;
+ cursor: pointer;
+ color: #00ffcc;
+ text-shadow: 0 0 5px #00ffcc;
+ font-size: 4em;
+  color: #ffcc00;
+}
+
+/* Bot Collection and Bot Card Styles */
+.bot-collection {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+
+}
+
+.bot-card {
+ 
+  border: 6px
+   solid #07d7ee;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.2s;
+  cursor: pointer;
+  color: #00ffcc;
+  text-shadow: 0 0 5px #00ffcc;
+}
+
+
+.bot-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 204, 255, 0.5);
+}
+
+.bot-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.bot-card h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+
+.your-army {
+  margin-top: 40px;
+  border: 6px
+  solid #17cfa1;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.2s;
+  cursor: pointer;
+  color: #00ffcc;
+  text-shadow: 0 0 5px #00ffcc;
+}
+
+.your-army .bot-card {
+  display: inline-block;
+  margin: 4px;
+}
+
+
+button {
+  background-color: #ff3366;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 6px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+h5{
+  font-size: 0.5em;
+  color: #ffcc00;
+}
+
